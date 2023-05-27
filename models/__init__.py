@@ -1,0 +1,1 @@
+from . import hms_patient, hms_depa, hms_doctor,hms_patint_hist_logs,hms_res_partner_inherit
