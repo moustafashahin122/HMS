@@ -8,7 +8,7 @@ class Hmsdepartent(models.Model) :
     name = fields.Char()
     capcity = fields.Integer()
     is_opened = fields.Boolean(string="Open")
-    
+    #memo
     patient_ids = fields.One2many("hms.patient" , "depart_name" ,readonly=True)
     doctors_department = fields.Many2many("hms.doctor")
     
