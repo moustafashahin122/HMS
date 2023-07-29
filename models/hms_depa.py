@@ -3,7 +3,7 @@ from odoo import models , fields
 class Hmsdepartent(models.Model) :
     _name = "hms.department"
     _rec_name= "name"
-    
+    #hello
     
     
     name = fields.Char()
