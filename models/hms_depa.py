@@ -5,7 +5,6 @@ class Hmsdepartent(models.Model) :
     _rec_name= "name"
     
     
-    
     name = fields.Char()
     capcity = fields.Integer()
     is_opened = fields.Boolean(string="Open")
@@ -15,3 +14,4 @@ class Hmsdepartent(models.Model) :
     
     
     # student_ids = fields.One2many('iti.student' , 'track_id' , readonly = True)
+    
