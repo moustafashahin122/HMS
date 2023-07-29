@@ -1,5 +1,7 @@
 <odoo>
     <data>
+
+
         <record id="patient_action" model="ir.actions.act_window">
             <field name="name">Patient</field>
             <field name="res_model">hms.patient</field>
@@ -9,7 +11,6 @@
             <field name="model">hms.patient</field>
             <field name="arch" type="xml">
                 <tree>
-                    <field name="fname" />
 
 
                     <field name="lname" />
@@ -58,7 +59,7 @@
                             <page string="Doctor Info">
                                 <group string="Doctor Data">
                                     <field name="doctors_of_patient"
-                                        attrs="{'readonly': [('depart_name', '=', False)]}" />
+                                        attrs="{'readonly' : [('depart_name' , '=' , False)]}" />
                                 </group>
                             </page>
 

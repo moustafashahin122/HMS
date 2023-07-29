@@ -1,4 +1,4 @@
-from odoo import models, fields, api,tools
+from odoo import  models,fields, api,tools
 from odoo.exceptions import UserError
 from datetime import date
 
@@ -88,7 +88,7 @@ class Hmspatient(models.Model):
             return {
                 'warning': {
                     "title": "State Changed",
-                    "message": "State is changed %s" % (self.patient_status)
+                    "message": "State is changed %s" %(self.patient_status)
                 }
             }
 
